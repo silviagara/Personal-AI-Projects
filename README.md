@@ -1,6 +1,6 @@
 # DocCleaner
 
-DocCleaner is a lightweight utility I built during my OPIT Master’s thesis to preprocess HR and policy documents for use in RAG systems.  
+DocCleaner is a lightweight utility I built during my capstone project to preprocess HR and policy documents for use in RAG systems.  
 It converts messy PDFs (including those with screenshots, icons, or symbols) into **clean, text-first PDFs** that are easier for downstream agents (e.g. Copilot Studio, LangChain apps) to process.  
 
 ✨ Features
