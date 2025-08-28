@@ -1,18 +1,16 @@
-# Personal-AI-Projects
+# DocCleaner
 
-A collection of self-initiated AI projects focused on Retrieval-Augmented Generation (RAG), LangChain, and agentic systems. These hands-on explorations reflect my learning journey in LLM development and showcase tools that bridge human language and machine reasoning.
+DocCleaner is a lightweight utility I built during my OPIT Master’s thesis to preprocess HR and policy documents for use in RAG systems.  
+It converts messy PDFs (including those with screenshots, icons, or symbols) into **clean, text-first PDFs** that are easier for downstream agents (e.g. Copilot Studio, LangChain apps) to process.  
 
-## 📂 Projects
+✨ Features
+- 🧹 Cleans and normalizes raw PDF text  
+- 🔄 OCR fallback for scanned or image-heavy files  
+- 🔣 Replaces icons/symbols with descriptive text for readability  
+- 📄 Outputs simplified PDFs that integrate smoothly into RAG pipelines  
 
-- **Ask This Book – Kafka Edition**  
-  A LangChain-based RAG system that allows users to interact with *The Metamorphosis* by Kafka. Combines FAISS vector search with `flan-t5-large` for reproducible, offline generation.
+🚀 Use Case
+Originally developed to support an HR assistant agent, but applicable to **any knowledge-base project** where documents are not RAG-friendly out of the box.  
 
-(More coming soon...)
-
-## 🚀 About Me
-
-I’m Silvia — a linguist-turned-AI-practitioner currently completing a Master’s in Data Science & AI. I’m passionate about building interpretable, language-centered AI systems and using my background in communication and culture to design tech that’s inclusive and impactful.
-
-## 📜 License
-
-All content is under **CC BY-NC 4.0** — use and adapt with attribution for non-commercial purposes.
+📜 License
+All content is under CC BY-NC 4.0 — use and adapt with attribution for non-commercial purposes.
